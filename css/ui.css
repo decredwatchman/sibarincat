@@ -1,0 +1,111 @@
+.color_box{
+ 
+}
+.block_box{
+    width:1440px;
+    margin:0 auto;
+}
+.card_box{
+    width:1200px;
+    margin:0 auto;
+}
+.flex_row{
+    display: flex;
+    flex-direction: row;
+}
+.flex_col{
+    display: flex;
+    flex-direction: column;
+}
+.row_middle{
+    align-items: center;
+}
+.col_middle{
+    justify-content: center;
+}
+.row_center{
+    justify-content: center;
+}
+.col_center{
+    align-items: center;
+}
+.flex_1 {
+    flex: 1 1 0%;
+}
+.width_null{
+    width:0;
+}
+/* .flex_auto {
+    flex: 1 1 auto;
+} */
+/* .flex_initial {
+    flex: 0 1 auto;
+} */
+.flex_none {
+    flex: none;
+}
+/* .aspect_img,
+.aspect_video{
+    padding-top:50%;
+    height: 0;
+    position: relative; 
+    overflow: hidden;
+}
+.aspect_img > img,
+.aspect_video > video{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+} */
+/* .miloBanner{margin: 0 auto; max-width: 1440px;} */
+.aspect_img{transition: transform 200ms; margin-top: 80px;}
+.aspect_img:hover{filter: drop-shadow(4px 4px 20px rgb(171, 50, 221,.6));}
+.txt_del {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.txt_del_2 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.txt_del_3 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    overflow: hidden;
+}
+.txt_del_5 {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    overflow: hidden;
+}
+:root{
+    --fs-xxxl:30px;
+    --fs-xxl:25px;
+    --fs-xl:22px;
+    --fs-l:18px;
+    --fs-m:16px;
+    --fs-s:16px;
+    --fs-xs:14px;
+    --fs-xxs:12px;
+}
+.img_width{
+    width:100%;
+}
+.m_b_0{margin-bottom: 0 !important;}

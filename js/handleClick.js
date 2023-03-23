@@ -4,11 +4,11 @@ setTimeout(function () {
   }, 3000)
   
   $(".buy_milo_btn").click(function () {
-    window.location.href = "https://pancakeswap.finance/";
+    window.location.href = "";
   });
   
   $(".buy_clock_btn").click(function () {
-    window.location.href = "https://pancakeswap.finance/2440cd";
+    window.location.href = "";
   });
   $(".buy_nft_btn").click(function () {
     window.location.href = "#";
